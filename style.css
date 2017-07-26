@@ -45,17 +45,18 @@ h4 {
 
 h5 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size:26pt;
+    font-size:30pt;
     line-height:0pt;
     color: black;
     margin-top:10px;
 }
 
 p {
-    width:55%;
-    text-align:justify;
-    font-size:18px;
+    width:100%;
+    text-align:center;
+    font-size:25px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 0 35px 35px 0;
 }
 
 /* Navigation */
@@ -193,7 +194,6 @@ a:hover {
 #product {
     text-align: center;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 50px;
 }
 
 .button {
