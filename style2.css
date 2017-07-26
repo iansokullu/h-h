@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:"Decotech TL";
+    src:url(decotech_tl.ttf);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size:16pt;
+    background: url(img/steel.jpg) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#body {
+    width:1500px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size:40pt;
+    color: black;
+    text-shadow: 2px 2px #000;
+}
+
+h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size:28pt;
+    color: black;
+}
+
+h4 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size:80pt;
+    letter-spacing: 12px;
+    color: black;
+    margin-bottom:10px;
+    text-shadow: 4px 4px #aaa;
+}
+
+h5 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size:30pt;
+    line-height:0pt;
+    color: black;
+    margin-top:10px;
+}
+
+p {
+    width:100%;
+    font-size:25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/* Navigation */
+
+nav ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: rgba(36, 41, 46, 1);
+}
+
+nav ul li {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size:25pt;
+    font-weight: normal;
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 20%;
+    width: calc(100% / 4);
+    box-sizing: border-box;
+}
+
+nav ul li:first-child {
+    border-left: none;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 10px 0;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+nav ul li a:hover {
+    color: #df4556;
+}
+
+a {
+    text-decoration: none;
+    color: #ffa;
+}
+
+a:hover {
+    color: #ff5;
+}
+
+.staff {
+    text-align:center;
+    color: #a65a00;
+    width:60%;
+    margin-top:200px;
+}
+
+.staff td{
+    width:15%;
+}
+
+.tickets {
+    text-align:center;
+    color: #fff;
+    margin-top:50px;
+    margin-right:100px;
+
+}
+
+.tickets th{
+    width:600px;
+    height:80px;
+    box-sizing:border-box;
+    border-top:25px solid transparent;
+}
+
+.tickets td{
+    width:300px;
+    height:200px;
+    box-sizing:border-box;
+
+    border-top:15px solid transparent;
+}
+
+.section {
+    min-height:1000px;
+    width:100%;
+    box-sizing:border-box;
+    border: 40px solid transparent;
+    position: relative;
+}
+
+.credits {
+    font-size: 5px;
+}
+
+#chart {
+  align: right;
+}
+
+.bottomMenu {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    text-align:right;
+    box-sizing: border-box;
+    right:0%;
+    border-right:10px solid transparent;
+    border-bottom:10px solid transparent;
+    z-index: 1;
+}
+
+.return {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    border-right:20px solid transparent;
+    text-align:right;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #df4556;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #df4556;
+    color: white;
+}
