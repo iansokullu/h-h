@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>H&H©®™</title>
+    <meta name="description" content="We"/>
+</head>
+
+<nav id="top">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#product">Our Product</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+    </ul>
+</nav>
+
+<div id ="splash" class="section">
+	<div id ="splashtext">
+		<h4>H&H</h4><h5>©®™</h5>
+    <h5>The brain you've been missing.</h5>
+
+	</div>
+</div>
+
+<script>
+    $(function() {
+
+        // ScrollTo
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+
+    });
+
+</script>
+
+<div class ="credits">© HoeHelper Inc. 2017</div>
+
+<div class="bottomMenu">
+	<a href="#top"><div class="button">Click here to return to the top.</div></a>
+</div>
